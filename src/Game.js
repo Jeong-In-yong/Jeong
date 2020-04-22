@@ -28,28 +28,28 @@ function Board ({state, onClick} : Board){
     return (
       <div>
         <div className="board-row">
-          {this.renderSquare(0)}
-          {this.renderSquare(1)}
-          {this.renderSquare(2)}
-          {this.renderSquare(3)}
+          {renderSquare(0)}
+          {renderSquare(1)}
+          {renderSquare(2)}
+          {renderSquare(3)}
         </div>
         <div className="board-row">
-          {this.renderSquare(4)}
-          {this.renderSquare(5)}
-          {this.renderSquare(6)}
-          {this.renderSquare(7)}
+          {renderSquare(4)}
+          {renderSquare(5)}
+          {renderSquare(6)}
+          {renderSquare(7)}
         </div>
         <div className="board-row">
-          {this.renderSquare(8)}
-          {this.renderSquare(9)}
-          {this.renderSquare(10)}
-          {this.renderSquare(11)}
+          {renderSquare(8)}
+          {renderSquare(9)}
+          {renderSquare(10)}
+          {renderSquare(11)}
         </div>
         <div className="board-row">
-          {this.renderSquare(12)}
-          {this.renderSquare(13)}
-          {this.renderSquare(14)}
-          {this.renderSquare(15)}
+          {renderSquare(12)}
+          {renderSquare(13)}
+          {renderSquare(14)}
+          {renderSquare(15)}
         </div>
       </div>
     );
