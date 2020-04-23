@@ -11,7 +11,6 @@ function Square ({value, onClick}: Square) {
   );
 }
 
-
 function Board ({state, onClick} : Board){
   const renderSquare = (i:number) => {
     return<Square value={state[i]} onClick={() => onClick(i)} />;
