@@ -3,11 +3,6 @@ import ReactDOM from 'react-dom';
 import './Game.css';
 
 
-type Square1 = {
-  value: string;
-  onClick: (event: React.MouseEvent<HTMLButtonElement,MouseEvent>) => void;
-};
-
 function Square ({value, onClick}: Square) {
   return(
     <button className="square" onClick={onClick}>
@@ -16,10 +11,6 @@ function Square ({value, onClick}: Square) {
   );
 }
 
-type Board1 = {
-  state: string[];
-  onClick: (i: number) => void;
-}
 
 function Board ({state, onClick} : Board){
   const renderSquare = (i:number) => {
