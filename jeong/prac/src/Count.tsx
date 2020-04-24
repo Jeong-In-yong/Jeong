@@ -16,7 +16,7 @@ const Count: React.FC =() =>{
     );
 }
 
+export default Count;
 ReactDOM.render(
     <Count />,document.getElementById('root')
 );
-export default Count;
